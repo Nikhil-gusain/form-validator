@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Welcome to NIK Forms</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">NIK Forms</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div id="message"></div>
+    </div>
+    <div class="container my-4">
+        <form>
+            <div class="my-4">
+                <label for="exampleInputEmail1" class="form-label ">Name</label>
+                <input type="email" class="form-control " id="user_Name" aria-describedby="emailHelp">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback">
+                        Only alphabets word limit min 3 max 10
+                      </small>
+            </div>
+            <hr>
+            <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="user_Email" aria-describedby="emailHelp">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback">
+                        Please enter a valid email for ex (xyz123@abc.com)
+                      </small>
+            </div>
+            <hr>
+            <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label">Phone no</label>
+                <input type="email" class="form-control" id="user_phone_no" aria-describedby="emailHelp">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback">
+                        Your phone number must be 10 digit long
+                      </small>
+            </div>
+            <hr>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Password">
+                <small id="emailvalid" class="form-text text-muted invalid-feedback show">
+                        Password must be atleast 8 digit and maximum 20
+                      </small>
+            </div>
+            <button type="submit" id = "submit_btn" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--script src="nik_library.js"></script-->
+    <script src="form_validator.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
